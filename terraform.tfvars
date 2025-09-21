@@ -1,0 +1,11 @@
+vpc_cidr = "10.0.0.0/16"
+vpc_name = "demo_dev_vpc"
+igw_name = "Demo_dev_igw"
+subnet_1_name = "Demo_dev_subnet_1"
+subnet_1_cidr = "10.0.1.0/24"
+az_1 = "us-east-1a"
+
+subnet_2_cidr = "10.0.2.0/24"
+az_2 = "us-east-1b"
+subnet_2_name = "Demo_dev_subnet_1"
+public_route_name = "Demo_dev_public_route"
