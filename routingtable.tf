@@ -10,11 +10,11 @@ resource  "aws_route_table" "vpc_1_routetable" {
 }
 
 resource "aws_route_table_association" "subnet_1_association" {
-    route_table_id = aws_route_table.vpc_1_routetable.vpc_id
+    route_table_id = aws_route_table.vpc_1_routetable.id
     subnet_id = aws_subnet.subnet_1.id
 }
 
 resource "aws_route_table_association" "subnet_2_association" {
-    route_table_id = aws_route_table.vpc_1_routetable.vpc_id
+    route_table_id = aws_route_table.vpc_1_routetable.id
     subnet_id = aws_subnet.subnet_2.id
 }
